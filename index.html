@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>GET STARTED</title>
+    <link rel="shortcut icon" href="images/tick.png" sizes="1111">
+    <link rel="stylesheet" href="css/getstrtcss.css">
+    <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="img-1">
+            <img id="menavtr" src="images/avtr1.png">
+        </div>
+        <div class="letgo">
+            <div class="logo">
+                <img id="log" src="images/tick.png">
+                <h2 class="art">FunctionController</h2>
+            </div>
+            <div class="go">
+                <a class=gtstart onclick="myFunction()" href="SIGNup.html">GET STARTED</a>
+            </div>
+        </div>
+        <div class="img-2">
+            <img id="womenavtr" src="images/avtr2.png">
+        </div>
+    </div>
+
+    <div class="loading">
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>   
+          
+          <script>
+            $(window).on("load",function(){
+              $(".loader-wrapper").fadeOut(3000);//2000:- it shows the 2 sec delay for the laoding screen
+            });
+        </script>
+    </div>
+</body>
+
+</html>

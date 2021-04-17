@@ -1,0 +1,162 @@
+*{
+	margin: 0px;
+}
+.head{
+	background-image: linear-gradient(to left, #434343 0%, black 100%);
+	color: white;
+	font-weight: 600
+	font-size: 25px;
+	padding: 10px 20px;	
+
+	}
+
+.topnav{
+	background-image: linear-gradient(to left, #DA4453 0%, black 100%); 
+	float: right;
+	width: 100%;
+	padding: 2px;
+	text-align: right;	
+	color: #ffff;
+}
+
+.topnav a:hover{
+	background-color: ;
+	color: white; 
+	opacity: 0.6;
+	border-radius: 5px;
+}
+.r-r-in{
+		text-align: center;
+		padding: 5px;
+		}
+.r-r-in input{
+				text-align: center;
+}		
+
+body{
+	/*background-image: linear-gradient(to right, #ff5700,#ff9800);
+*/
+	}
+
+.register-right{
+	float: right;
+	width: 50%;
+	overflow: hidden;
+	margin-top: 175px;
+}
+
+.r-r-in h2{
+	font-style: script;
+
+}
+
+.register-left{
+	float: left;
+	width: 50%;
+	height: 100vh;
+	margin-top: 140px;
+	text-align: center;
+}
+
+.register-left img{
+	width: 275px;
+}
+
+.footer{
+	 background: linear-gradient(45deg, black, #939393);
+	 color: white;	
+	 text-align: center;
+	 margin-top: 670px;
+	 padding: 5px;
+	 left: 0;
+	 bottom: 0; 
+	 position: fixed;
+	 width: 100%
+	}
+
+	span a{
+		padding: 4px 15px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.lg-btn{
+	border-radius: 20px;
+	height: 20px;
+	box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.37);
+	width: 100px;
+	background-image: linear-gradient(to right, #ee0979,#ff6a00);
+}
+
+.lg-btn:hover
+{
+	border-color: black;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	background-color: green;
+}
+
+	#Ct{
+	text-align: center;
+	padding: 5px;
+	}
+
+	#cps{
+		text-align: center;
+		padding: 5px;
+		}
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 4s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 25%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }

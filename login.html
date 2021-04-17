@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/tick.png" sizes="1111">
+		<title>LOGin Corps</title>
+		<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/jquery-ui.min.css"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+	</head>
+	<body>
+		<div class="head">
+		<header>
+			&#x1F4DA;FunctionController<small><span></span></span>  <span></span></small>
+		</header>
+		</div>
+		<nav class="topnav" style="background: linear-gradient(to right, #1b2127, #89253e)">
+			<span><a href="SIGNup.html">SignUp</a></span>
+		</nav>
+		<div class="conatiner">
+		<div class="register-left">
+		<img src="images/avtr25.png" id="ncc-img">
+		</div>
+		<form method="POST" action="login_db.php">
+		<div class="register-right">
+		<div class="Login-elements">
+		<div class="r-r-in">
+			<div class="heading">
+				<h2 class="animated fadeInDown">Login Portal</h2>
+			</div>
+			
+
+		<div class="r-r-in2">
+			<div class="enroll-log">
+			 
+				<i id="usr-icn" class="fa fa-user icon"></i>
+			
+				<input class="animated bounceInLeft" type="text" name="usernm" id="enroll" required="filled" placeholder="USERNAME">
+			</div>
+		</div>
+		<br>
+
+		<div class="r-r-in">
+			<div class="pass-log">
+				<i id="key-icn" class="fa fa-key icon"></i>
+
+				<input class="animated bounceInLeft" type="password" name="passwrd" id="passwd" required="filled" placeholder="PASSWORD">
+			</div>
+		</div>
+		<br>
+		<div class="r-r-in">
+			<div>
+				<input type="submit" class="lg-btn" src="login_db.php" name="going" value="LOGIN">
+			</div>
+	
+		</div>
+		</div>
+	</div>
+
+</div>
+</form>
+	<div class="footer">
+		<p>&#xA9;&#xFE0F; Copyright 2020 FunctionController Let's Execute Future	|	Designed and devloped by Nikhil kubde</p>
+	</div>
+	<div class="loading">
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>   
+          
+          <script>
+            $(window).on("load",function(){
+              $(".loader-wrapper").fadeOut(700);//2000:- it shows the 2 sec delay for the laoding screen
+            });
+        </script>
+    </div>
+</body>
+
+
+</html>

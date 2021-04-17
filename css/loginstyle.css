@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+}
+.head{
+	background-image: linear-gradient(to left, #434343 0%, black 100%);
+	color: white;
+	font-weight: 600;
+	font-size: 25px;
+	padding: 10px 20px;	
+
+	}
+
+.topnav{
+	background-image: linear-gradient(to left, #40E0D0 0%, black 100%); 
+	float: right;
+	width: 100%;
+	padding: 2px;
+	opacity: 1;
+	text-align: right;
+}
+  
+h2{
+	padding:15px;
+}
+
+.topnav a:hover{
+	background-color: skyblue;
+	text-decoration: none;
+	color: white; 
+}
+
+.r-r-in{
+	text-align: center;
+	padding: 5px;
+		}
+.r-r-in input{
+	text-align: center;
+}
+
+body{
+	background-image: linear-gradient(to right, #00c6ff,#0072ff);
+	}
+
+.register-right{
+	float: right;
+	width: 50%;
+	height: 500px;
+	overflow: hidden;
+	margin-top: 175px;
+}
+
+.Login-elements{
+	height: 40px;
+}
+
+.r-r-in h2{
+	font-style: script;
+}
+
+.register-left{
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	margin-top: 140px;
+	text-align: center;
+}
+
+.register-left img{
+	width: 275px;
+}
+
+.footer{
+	 background: linear-gradient(45deg, black, #939393);
+	 color: white;	
+	 text-align: center;
+	 margin-top: 670px;
+	 padding: 5px;
+	 left: 0;
+	 bottom: 0; 
+	 position: fixed;
+	 width: 100%
+	}
+
+span a{
+		padding: 4px 15px;
+		text-decoration: none;
+		color: #fff;
+	}
+
+.icon-user{
+	background-color: white;
+	border-radius: 25px;
+	width: 200px;
+
+}
+
+.icon-user1{
+	float: left;
+	width: 25%;
+	height: 25px;
+	max-width: 40px;
+	background-color: white;
+	overflow: hidden;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.enroll{
+	float: left;
+	width: 25%;
+	height: 25px;
+	background-color: transparent;
+	overflow: hidden;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.enroll-div{
+	text-align: center;
+	padding: 5px;
+}
+
+.icon-user2{
+	float: left;
+	width: 20%;
+	height: 25px;
+	background-color: white;
+	max-width: 40px;
+	overflow: hidden;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.regimental{
+	float: left;
+	width: 25%;
+	height: 25px;
+	background-color: transparent;
+	overflow: hidden;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.regimental-div{
+	text-align: center;
+	width: 100%;
+	height: 25px;
+}
+
+.pass-icn{
+	float: left;
+	width: 24.5%;
+	max-width: 40px;
+	height: 26.5px;
+	background-color: white;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+.pass-wd{
+	float: left;
+	width: 24.5%;
+	height: 14px;
+}
+
+
+.lg-btn{
+	border-radius: 20px;
+	height: 20px;
+	box-shadow: 0px 0px 15px 2px rgba(40, 233, 65, 0.96);
+	width: 70px;
+	background-image: linear-gradient(to right, #FDFC47,#24FE41);
+}
+.lg-btn:hover
+{
+	border-color: black;
+	border-radius: 20px;
+	height: 30px;
+	width: 100px;
+	background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #242f3f;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 4s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 25%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
